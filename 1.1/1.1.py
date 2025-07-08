@@ -8,7 +8,7 @@ st.set_page_config(page_title="1.1 – Szeparábilis differenciálegyenletek", l
 # Helper functions
 # TODO: Separate utility functions into a separate module
 
-def slope_field_traces(f, x_range, y_range, density=21, seg_len=0.4):
+def slope_field_traces(f, x_range, y_range, density=11, seg_len=0.2):
     """Színezett iránymező – a vonalvastagság és szín a |m|-hez arányos."""
     xs = np.linspace(x_range[0], x_range[1], density)
     ys = np.linspace(y_range[0], y_range[1], density)
